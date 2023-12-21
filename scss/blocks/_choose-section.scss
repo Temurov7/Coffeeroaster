@@ -54,12 +54,20 @@
     height: 382px;
     flex-shrink: 0;
     border-radius: 8px;
+    background: #F4F1EB;
+}
+.choose__item:hover{
+    border-radius: 8px;
+    background: #FDD6BA;
+}
+.choose__item:active{
+    border-radius: 8px;
     background: #0E8784;
 }
 .choose__strong{
     margin-top: 95px;
     margin-bottom: 24px;
-    color: #FEFCF7;
+    color: #333D4B;
     text-align: center;
     font-family: Fraunces,serif;
     font-size: 24px;
@@ -69,7 +77,7 @@
 }
 .choose__item-text{
     width: 255px;
-    color: #FEFCF7;
+    color: #333D4B;
     text-align: center;
     font-size: 16px;
     font-style: normal;
