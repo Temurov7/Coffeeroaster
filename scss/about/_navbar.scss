@@ -1,0 +1,48 @@
+.navbar__list {
+    @include display()
+}
+.navbar__item {
+    & + & {
+        margin-left: 33px;
+    }
+}
+.navbar__link {
+    color: #83888F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: color 0.5s linear;
+
+    &:hover{
+        color: black;
+    }
+}
+.hamburger__btn{
+    display: none;
+}
+@media only screen and (max-width: 810px){
+    .header{
+        padding: 40px 0 53px 0;
+    }
+}
+@media only screen and (max-width: 645px){
+    .header{
+        padding: 32px 0 40px 0;
+    }
+    .header__logo{
+        width: 163px;
+        height: 18px;
+    }
+    .navbar__list{
+        display: none;
+    }
+    .hamburger__btn{
+        display: block;
+        border: none;
+    }
+}
+
+
